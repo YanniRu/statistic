@@ -48,6 +48,14 @@
                     </execution>
 
                     <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+
+                    <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
@@ -70,5 +78,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
